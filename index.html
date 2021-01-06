@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <title>Arclight</title>
+    <meta name="description" content="Özenle kodlanmış, çok fazla kategori ve komut içeren sade Discord botu.">
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/795001118357979166/795076110151974912/arclight.png">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5eda1feb3e.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <style>
+        body {
+            color: #cccaca;
+            line-height: 1.5;
+            font-family: 'Open Sans';
+            font-size: 22px;
+        }
+
+        .box div,
+        #logo,
+        .button,
+        #statistics {
+            box-shadow: #000 0 3px 10px -5px;
+            border-radius: 5px;
+        }
+
+        .box {
+            width: 100%;
+            text-align: center;
+        }
+
+        .box p {
+            text-align: left;
+        }
+
+        .box img {
+            max-width: 90%;
+            background-color: #36393f;
+            border-radius: 7px;
+            padding: 7px;
+            margin-bottom: 30px;
+        }
+
+        .box div {
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #000;
+            user-select: none;
+            font-weight: 600;
+        }
+
+        a {
+            color: #c4c4f3;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            color: #9090d0;
+        }
+
+        code {
+            color: #15b4aca4;
+            font-family: 'Open Sans';
+            font-size: 22px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        ::selection {
+            background-color: #fff;
+            color: #000;
+        }
+
+        @media only screen and (min-width: 1032px) {
+            .container {
+                max-width: 70%;
+            }
+
+            .box-wrapper {
+                display: flex;
+            }
+
+            .box {
+                margin: 0 10px;
+            }
+        }
+
+        @media only screen and (min-width: 2000px) {
+            .container {
+                max-width: 65%;
+            }
+        }
+
+        @media only screen and (min-width: 2200px) {
+            .container {
+                max-width: 60%;
+            }
+        }
+
+        @media only screen and (min-width: 2400px) {
+            .container {
+                max-width: 55%;
+            }
+        }
+
+        @media only screen and (min-width: 2600px) {
+            .container {
+                max-width: 50%;
+            }
+        }
+
+        @media only screen and (min-width: 2800px) {
+            .container {
+                max-width: 45%;
+            }
+        }
+
+        @media only screen and (min-width: 3000px) {
+            .container {
+                max-width: 40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-wrap">
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <div class="hero-copy">
+                            <h1 class="hero-title mt-0">Arclight</h1>
+                            <p class="hero-paragraph">Özenle kodlanmış, çok fazla kategori ve komut içeren sade Discord botu.</p>
+                            <div class="hero-cta">
+                                <a class="button button-primary" href="https://discord.com/oauth2/authorize?client_id=608599055089795084&scope=bot&permissions=2093476983" target="_blank">Davet Et</a>
+                                <a class="button" href="https://discord.gg/TfWe7CAsvB" target="_blank">Destek</a>
+                            </div>
+                        </div>
+                        <img src="https://cdn.discordapp.com/attachments/699267550223138816/795080290904703056/arclight.png" alt="Arclight" id="logo">
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+                    <div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #c7a55b, #ad6608);"><i class="fas fa-search" style="color: #e0e0ee;"></i> Ara</div>
+                                    <p>Ara kategorisi <code>Anime</code>, <code>Şarkı Sözleri</code>, <code>iTunes</code>, <code>Spotify</code>, <code>Whois</code> ve <code>Google</code> gibi bir çok harika komut içeriyor.</code></p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #c45252, #e77c7c);"><i class="fas fa-gamepad"></i> Oyunlar</div>
+                                    <p>Oyunlar kategorisi <code>Steam</code>, <code>Rust</code>, <code>Minecraft</code> ve <code>Roblox</code> gibi bir çok komut içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #89bba6, #3a705b);"><i class="fas fa-info" style="color: #e0e0ee;"></i> Bilgi</div>
+                                    <p>Bilgi kategorisi <code>Covid</code>, <code>Palette</code> ve <code>Havadurumu</code> gibi komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #bec289cc, #bdbb67);"><i class="fas fa-grin-beam"></i> Eğlence</div>
+                                    <p>Eğlence kategorisi <code>Clap</code>, <code>Emojify</code>, <code>Mock</code>, <code>Type</code> ve <code>Reverse</code> gibi eğlenceli komutlar içeriyor</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #505050, #201f1f);"><i class="fas fa-gavel" style="color: #e0e0ee;"></i> Moderasyon</div>
+                                    <p>Moderasyon kategorisi <code>Ban</code>, <code>Kick</code>, <code>Mute</code>, <code>Nick</code> ve <code>Prefix</code> gibi komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #82bcca, #0a6777);"><i class="fas fa-thumbs-up"></i> Sosyal Medya</div>
+                                    <p>Sosyal Medya kategorisi <code>İnstagram</code>, <code>Youtube</code>, <code>Twitch</code>, <code>Reddit</code> gibi komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #2a9110, #256308);"><i class="fas fa-hands-helping" style="color: #e0e0ee;"></i> Yararlı</div>
+                                    <p>Yararlı kategorisi <code>Döviz</code>, <code>Çeviri</code>, <code>Qrcode</code> ve <code>Screenshot</code> gibi yararlı komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #e494cc, #be6596);"><i class="fas fa-images"></i> Görüntü Oluşturma</div>
+                                    <p>Görüntü Oluşturma kategorisi <code>Trash</code>, <code>Bad</code>, <code>Lego</code>, <code>Resize</code>, <code>Fisheye</code> ve <code>Didyoumean</code> gibi çok daha fazla harika komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature text-center is-revealing">
+                                <div class="box">
+                                    <div style="background-image: linear-gradient(to right, #8697f6, #999fc0);"><i class="fab fa-discord"></i> Discord</div>
+                                    <p>Discord kategorisi <code>Avatar</code>, <code>Kanal</code>, <code>Emoji</code>, <code>Rol</code>, <code>Kullanıcı</code>, <code>Sunucu</code> ve <code>İzinler</code> gibi muhteşem komutlar içeriyor.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta section">
+                <div class="container">
+                    <div class="cta-inner section-inner">
+                        <h3 class="section-title mt-0">Arclight'ı davet edecek misin?</h3>
+                        <div class="cta-cta">
+                            <a class="button button-primary button-wide-mobile" href="https://discord.com/oauth2/authorize?client_id=608599055089795084&scope=bot&permissions=2093476983" target="_blank">Davet Et</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="">Ana Sayfa</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.com/oauth2/authorize?client_id=608599055089795084&scope=bot&permissions=2093476983" target="_blank">Davet</a>
+                        </li>
+                        <li>
+                            <a href="https://arclight.statuspage.io/" target="_blank">Durum</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/TfWe7CAsvB" target="_blank">Destek</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                    </ul>
+                    <footer>
+                        <p>&copy; aproxthethat // <a href="https://github.com/flazepe/aeon-web">flazepe</a><br></p>
+                    </footer>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
